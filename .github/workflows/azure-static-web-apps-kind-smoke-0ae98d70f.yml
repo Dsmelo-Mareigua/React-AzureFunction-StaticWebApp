@@ -40,8 +40,8 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "React-Guide-Project"          # Si React está en la raíz de tu proyecto, usa "/" (sin "app")
-          api_location: "api"        # Quita la barra inicial. Solo "api"
+          app_location: "/React-Guide-Project"          # Si React está en la raíz de tu proyecto, usa "/" (sin "app")
+          api_location: "/api"        # Quita la barra inicial. Solo "api"
           output_location: "dist"    # Este está perfecto así
 
           app_build_command: "npm run build"
